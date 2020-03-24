@@ -1,10 +1,10 @@
 # Curso-python-Manuel-J-Davila
 
-https://www.lawebdelprogramador.com/cursos/descargar.php?id=8159
+https://www.youtube.com/playlist?list=PLjARR1053fYlEKgn0H1-x3UM9Zl4aYLxy
 
 ## Pendiente
 #### 23/03/20
 - Video 14
 
 #### 24/03/20
-- Video 14 min 9
+- Video 15

@@ -1,7 +1,7 @@
 def sumar(*arg):
     sumar = 0
     for item in arg:
-        suma += item
+        sumar += item
     return sumar
 
 
