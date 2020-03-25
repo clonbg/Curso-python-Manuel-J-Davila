@@ -11,3 +11,7 @@ https://www.youtube.com/playlist?list=PLjARR1053fYlEKgn0H1-x3UM9Zl4aYLxy
 #### 24/03/20
 
 - Video 18
+
+#### 25/03/20
+
+- Video 19
