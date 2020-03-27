@@ -18,6 +18,7 @@ if (consulta.execute(sql)):
 else:
     print('Ha ocurrido un error')
 
+consulta.close()
 # Guardamos los cambios
 conexion.commit()
 

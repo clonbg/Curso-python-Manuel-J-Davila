@@ -3,9 +3,9 @@ import datetime
 
 print('***** Insertar registros *****')
 
-cadena_texto = input('Introduzca texto')
-entero = input('Introduzca un numero entero')
-decimal = input('Introduzca un decimal')
+cadena_texto = input('Introduzca texto: ')
+entero = input('Introduzca un numero entero: ')
+decimal = input('Introduzca un decimal: ')
 
 try:
     entero = int(entero)
@@ -38,8 +38,7 @@ if consulta.execute(sql, argumentos):
     print('Registro correcto')
 else:
     print('Ha habido un error')
-
+consulta.close()
 # Guardamos los cambios
 conexion.commit()
-
-consulta.close()
+conexion.close()
