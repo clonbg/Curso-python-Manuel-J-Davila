@@ -6,25 +6,48 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>660</width>
-    <height>513</height>
+    <width>411</width>
+    <height>495</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
+   <widget class="QPushButton" name="button_boton">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>90</y>
-      <width>181</width>
-      <height>91</height>
+      <x>200</x>
+      <y>70</y>
+      <width>86</width>
+      <height>27</height>
      </rect>
     </property>
     <property name="text">
-     <string>Prueba</string>
+     <string>Botón</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_titulo">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>70</y>
+      <width>64</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string notr="true">Título</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="Text_area">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>170</y>
+      <width>241</width>
+      <height>181</height>
+     </rect>
     </property>
    </widget>
   </widget>
@@ -33,12 +56,28 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>660</width>
-     <height>20</height>
+     <width>411</width>
+     <height>24</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuPesta_a1">
+    <property name="title">
+     <string>Pestaña1</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuPesta_a2">
+    <property name="title">
+     <string>Pestaña2</string>
+    </property>
+   </widget>
+   <addaction name="menuPesta_a1"/>
+   <addaction name="menuPesta_a2"/>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
